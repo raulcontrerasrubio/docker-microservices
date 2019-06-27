@@ -8,7 +8,7 @@ client.set('visits', 0);
 app.get('/', (req, res) => {
   client.get('visits', (err, visits) => {
     res.send(`N umber of visits is: ${visits}`)
-    client.set(visits, ++(+visits));
+    client.set(visits, parseInt(visits)+1);
   })
 });
 
