@@ -3,6 +3,7 @@ services:
   redis-server:
     image: 'redis'
   docker-microservices:
+    restart: always
     build: .
     ports:
       - "3000:8081"
