@@ -1,0 +1,20 @@
+{
+  "name": "docker-microservices",
+  "version": "1.0.0",
+  "description": "A simple NodeJS application with Redis, splitted in different containers with Docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raulcontrerasrubio/docker-microservices.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raulcontrerasrubio/docker-microservices/issues"
+  },
+  "homepage": "https://github.com/raulcontrerasrubio/docker-microservices#readme"
+}
